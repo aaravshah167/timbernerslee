@@ -1,0 +1,70 @@
+#profile{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width: 170px;
+}
+body{
+    margin: 0;
+    padding-top: 800px;
+}
+#intro_section{
+    text-align: center;
+    position: absolute;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(blue 0%, yellow 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.innerdiv{
+    position: relative;
+    display:table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#bio{
+    text-align: center;
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.menu{
+    z-index: 10;
+    position: absolute;
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+.link{
+    float: left;
+    color: white;
+    background-color: black;
+    padding: 9px;
+    display: inline;
+    font-family: Open Sans;
+    font-size: 18px;
+}
+.link:hover{
+    background-color: white;
+    color: black;
+}
+#name{
+    font-family: 'Roboto', sans-serif;
+}
